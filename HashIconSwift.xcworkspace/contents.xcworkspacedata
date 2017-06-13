@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HashIconSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HashIconSwift.playground">
+   </FileRef>
+   <FileRef
+      location = "group:HashIconSwift.podspec">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Readme.md">
+   </FileRef>
+</Workspace>
