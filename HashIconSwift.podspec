@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'HashIconSwift'
-    s.version = '1.0.6'
+    s.version = '1.0.7'
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.summary = 'Swift library which takes in a string and draws a pictorial representation of that string.'
     s.authors = { "Francisco Pereira" => "francisco.pereira@thomsonreuters.com" }
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
     # add the new module to Import Paths
     s.xcconfig = {
-    "SWIFT_INCLUDE_PATHS" => "$(PODS_ROOT)/hashicon-swift/Frameworks/$(PLATFORM_NAME)",
-    "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/hashicon-swift/Frameworks/$(PLATFORM_NAME)"
+    "SWIFT_INCLUDE_PATHS" => "$(PODS_ROOT)/HashIconSwift/Frameworks/$(PLATFORM_NAME)",
+    "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/HashIconSwift/Frameworks/$(PLATFORM_NAME)"
     }
 
 end
