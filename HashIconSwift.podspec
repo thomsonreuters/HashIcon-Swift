@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     #s.platforms     = { :ios => "9.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
     s.requires_arc = true
 
-    s.default_subspec = "Core"
+#    s.default_subspec = "Core"
 #s.subspec "Core" do |ss|
     s.source_files  = "Source/**/*.{h,swift}"
 #s.framework  = "Foundation"
