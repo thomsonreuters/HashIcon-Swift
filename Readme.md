@@ -1,25 +1,33 @@
-## HashIconSwift
+# HashIcon - Swift Library
 
 [![Platforms](https://img.shields.io/cocoapods/p/HashIconSwift.svg)](https://cocoapods.org/pods/HashIconSwift)
-[![License](https://img.shields.io/cocoapods/l/HashIconSwift.svg)](https://raw.githubusercontent.com/Thomson Reuters/HashIconSwift/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/HashIconSwift.svg)](https://cocoapods.org/pods/HashIconSwift)
 
-[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
+## Overview
+* Swift library which takes in a string and draws a pictorial representation of that string.
 
-Swift library which takes in a string and draws a pictorial representation of that string.
+## Contact
+[Francisco Pereira](mailto:francisco.pereira@thomsonreuters.com) - [The Hub](https://thehub.thomsonreuters.com/people/0169361) - [Git](https://git.sami.int.thomsonreuters.com/francisco.pereira)
 
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
+- [Build](#installation)
+- [Roadmap](#roadmap)
 - [License](#license)
 
 ## Requirements
 
-- iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 9.0+ 
 - Xcode 8.0+
+
+## Usage
+
+* Include the library (require, import)
+* Draw the image - ```HashIcon(size: 5).drawIcon(input: "Example", container: view)```
+
 
 ## Installation
 
@@ -40,44 +48,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'HashIconSwift', '~> 1.0.0'
+pod 'HashIconSwift', :git => 'git@git.sami.int.thomsonreuters.com:nopass/hashicon-swift.git'
 ```
 
 Then, run the following command:
 
 ```bash
 $ pod install
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate HashIconSwift into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "HashIconSwift/HashIconSwift" ~> 1.0.0
-```
-### Swift Package Manager
-
-To use HashIconSwift as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
-
-``` swift
-import PackageDescription
-
-let package = Package(
-    name: "HelloHashIconSwift",
-    dependencies: [
-        .Package(url: "https://github.com/Thomson Reuters/HashIconSwift.git", "1.0.0")
-    ]
-)
 ```
 
 ### Manually
@@ -95,13 +72,13 @@ $ git init
 - Add HashIconSwift as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/Thomson Reuters/HashIconSwift.git
+$ git submodule add git@git.sami.int.thomsonreuters.com:nopass/hashicon-swift.git
 $ git submodule update --init --recursive
 ```
 
 - Open the new `HashIconSwift` folder, and drag the `HashIconSwift.xcodeproj` into the Project Navigator of your application's Xcode project.
 
-    > It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
+> It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
 
 - Select the `HashIconSwift.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
@@ -109,7 +86,7 @@ $ git submodule update --init --recursive
 - Click on the `+` button under the "Embedded Binaries" section.
 - You will see two different `HashIconSwift.xcodeproj` folders each with two different versions of the `HashIconSwift.framework` nested inside a `Products` folder.
 
-    > It does not matter which `Products` folder you choose from.
+> It does not matter which `Products` folder you choose from.
 
 - Select the `HashIconSwift.framework`.
 
@@ -126,8 +103,9 @@ $ git submodule update --init --recursive
 - Add the downloaded `HashIconSwift.framework`.
 - And that's it!
 
-## Usage
+## Roadmap
+* No further development expected
 
 ## License
 
-HashIconSwift is released under the MIT license. See [LICENSE](https://github.com/Thomson Reuters/HashIconSwift/blob/master/LICENSE) for details.
+HashIconSwift is released under the MIT license. See [LICENSE](https://git.sami.int.thomsonreuters.com/nopass/hashicon-swift/blob/master/LICENSE) for details.
