@@ -9,17 +9,17 @@
 import UIKit
 import CommonCrypto
 
-class HashIcon {
+public class HashIcon {
     
     static let DefaultSize = 5
     
-    var size = DefaultSize
+    public var size = DefaultSize
     
-    init(size: Int = DefaultSize) {
+    public init(size: Int = DefaultSize) {
         self.size = size
     }
     
-    func drawIcon(input: String, container: UIView) {
+    public func drawIcon(input: String, container: UIView) {
         let inputSHA256 = sha256(string: input)
         
         let structure = getImageStructureForString(input: inputSHA256!)

@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.default_subspec = "Core"
-    s.subspec "Core" do |ss|
-    ss.source_files  = "Sources/*.swift"
-    ss.framework  = "Foundation"
-    end
+#s.subspec "Core" do |ss|
+    s.source_files  = "Source/**/*.{h,swift}"
+#s.framework  = "Foundation"
+#    end
 
     # Create module.map files for CommonCrypto framework
     s.preserve_paths = "Frameworks"
