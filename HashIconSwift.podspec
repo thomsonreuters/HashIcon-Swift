@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
 #    s.default_subspec = "Core"
 #s.subspec "Core" do |ss|
-    s.source_files  = "Source/**/*.{h,swift}"
+    s.source_files  = "Sources/**/*.{h,swift}"
 #s.framework  = "Foundation"
 #    end
 
