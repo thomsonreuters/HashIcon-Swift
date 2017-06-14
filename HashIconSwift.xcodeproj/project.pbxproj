@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0BC7F5291EF0455F00D58710 /* HashIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F5281EF0455F00D58710 /* HashIcon.swift */; };
-		0BC7F52A1EF0455F00D58710 /* HashIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F5281EF0455F00D58710 /* HashIcon.swift */; };
-		0BC7F52B1EF0455F00D58710 /* HashIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F5281EF0455F00D58710 /* HashIcon.swift */; };
-		0BC7F52C1EF0455F00D58710 /* HashIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F5281EF0455F00D58710 /* HashIcon.swift */; };
 		3549BB501DA38A2000C63030 /* HashIconSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* HashIconSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* HashIconSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* HashIconSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* HashIconSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* HashIconSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -487,7 +484,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC7F52C1EF0455F00D58710 /* HashIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC7F52A1EF0455F00D58710 /* HashIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC7F52B1EF0455F00D58710 /* HashIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,7 +867,6 @@
 		3549BB791DA38AEF00C63030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
@@ -890,7 +883,6 @@
 		3549BB7A1DA38AEF00C63030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
@@ -906,7 +898,6 @@
 		3549BB881DA38B0000C63030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -925,7 +916,6 @@
 		3549BB891DA38B0000C63030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;

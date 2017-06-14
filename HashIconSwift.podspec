@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  s.summary = 'Swift library which takes in a string and draws a pictorial representation of that string.'
  s.authors = { "Francisco Pereira" => "francisco.pereira@thomsonreuters.com" }
  s.source = { :git => "https://git.sami.int.thomsonreuters.com/nopass/hashicon-swift.git" }
- s.platforms     = { :ios => “9.0”, :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
+ s.platforms     = { :ios => "9.0" }
  s.requires_arc = true
 
  s.default_subspec = "Core"
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
      ss.framework  = "Foundation"
  end
 
-# Create module.map files for CommonCrypto framework
-spec.preserve_paths = "Frameworks"
-spec.prepare_command = <<-CMD
-sh ./modulemap.sh
-CMD
+ # Create module.map files for CommonCrypto framework
+ spec.preserve_paths = "Frameworks"
+ spec.prepare_command = <<-CMD
+ sh ./modulemap.sh
+ CMD
 
 end
