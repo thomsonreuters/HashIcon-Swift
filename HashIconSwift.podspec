@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
  end
 
  # Create module.map files for CommonCrypto framework
- spec.preserve_paths = "Frameworks"
- spec.prepare_command = <<-CMD
+ s.preserve_paths = "Frameworks"
+ s.prepare_command = <<-CMD
  sh ./modulemap.sh
  CMD
 
