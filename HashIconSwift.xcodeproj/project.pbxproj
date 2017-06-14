@@ -664,8 +664,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomsonreuters.internal.hashicon-swift.HashIconSwift";
 				PRODUCT_NAME = HashIconSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${PROJECT_DIR}/Frameworks/${PLATFORM_NAME}/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 			};
 			name = Debug;
 		};
@@ -686,7 +691,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomsonreuters.internal.hashicon-swift.HashIconSwift";
 				PRODUCT_NAME = HashIconSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${PROJECT_DIR}/Frameworks/${PLATFORM_NAME}/**";
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wall",
+				);
 			};
 			name = Release;
 		};
