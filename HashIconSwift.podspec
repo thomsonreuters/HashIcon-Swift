@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'HashIconSwift'
-    s.version = '1.0.5'
+    s.version = '1.0.6'
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.summary = 'Swift library which takes in a string and draws a pictorial representation of that string.'
     s.authors = { "Francisco Pereira" => "francisco.pereira@thomsonreuters.com" }
