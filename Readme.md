@@ -1,22 +1,10 @@
 # HashIcon - Swift Library
 
-[![Platforms](https://img.shields.io/cocoapods/p/HashIconSwift.svg)](https://cocoapods.org/pods/HashIconSwift)
-
-[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/HashIconSwift.svg)](https://cocoapods.org/pods/HashIconSwift)
-
 ## Overview
 * Swift library which takes in a string and draws a pictorial representation of that string.
 
 ## Contact
 [Francisco Pereira](mailto:francisco.pereira@thomsonreuters.com) - [The Hub](https://thehub.thomsonreuters.com/people/0169361) - [Git](https://git.sami.int.thomsonreuters.com/francisco.pereira)
-
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Build](#installation)
-- [Roadmap](#roadmap)
-- [License](#license)
 
 ## Requirements
 
