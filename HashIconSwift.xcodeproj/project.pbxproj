@@ -46,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		0BC7F5281EF0455F00D58710 /* HashIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashIcon.swift; sourceTree = "<group>"; };
+		0BC7F5501EF14D5E00D58710 /* HashIconSwift-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HashIconSwift-Swift.h"; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* HashIconSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashIconSwift.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* HashIconSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HashIconSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,9 +162,6 @@
 		3549BB541DA38A4000C63030 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB181DA3890B00C63030 /* HashIconSwift.h */,
-				3549BB171DA3890B00C63030 /* Info.plist */,
-				3549BB551DA38A5E00C63030 /* Info-tvOS.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				0BC7F5281EF0455F00D58710 /* HashIcon.swift */,
+				3549BB181DA3890B00C63030 /* HashIconSwift.h */,
+				3549BB551DA38A5E00C63030 /* Info-tvOS.plist */,
+				3549BB171DA3890B00C63030 /* Info.plist */,
+				0BC7F5501EF14D5E00D58710 /* HashIconSwift-Swift.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
