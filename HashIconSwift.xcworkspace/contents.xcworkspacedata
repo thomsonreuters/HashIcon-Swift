@@ -5,22 +5,7 @@
       location = "group:HashIconSwift.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:HashIconSwift.playground">
-   </FileRef>
-   <FileRef
       location = "group:HashIconSwift.podspec">
-   </FileRef>
-   <FileRef
-      location = "group:modulemap.sh">
-   </FileRef>
-   <FileRef
-      location = "group:build_framework.sh">
-   </FileRef>
-   <FileRef
-      location = "group:LICENSE">
-   </FileRef>
-   <FileRef
-      location = "group:Package.swift">
    </FileRef>
    <FileRef
       location = "group:Readme.md">
