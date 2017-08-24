@@ -1,7 +1,9 @@
 # HashIcon - Swift Library
 
 ## Overview
-* Swift library which takes in a string and draws a pictorial representation of that string.
+* JS library which takes in a string and draws a pictorial representation of that string
+* The same string will generate the same image in [HashIcon-JS](https://github.com/thomsonreuters/HashIcon-JS)
+* Can be shown to a user in order verify that data (e.g. a public key) is identical in 2 applications
 
 ![Example Ouput](./output.png)
 
