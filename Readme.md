@@ -41,7 +41,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 use_frameworks!
 
-pod 'HashIconSwift', :git => 'git@git.sami.int.thomsonreuters.com:nopass/hashicon-swift.git'
+pod 'HashIconSwift', :git => 'https://github.com/thomsonreuters/HashIcon-Swift'
 ```
 
 Then, run the following command:
@@ -65,7 +65,7 @@ $ git init
 - Add HashIconSwift as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add git@git.sami.int.thomsonreuters.com:nopass/hashicon-swift.git
+$ git submodule add https://github.com/thomsonreuters/HashIcon-Swift
 $ git submodule update --init --recursive
 ```
 
@@ -89,7 +89,7 @@ $ git submodule update --init --recursive
 
 #### Embeded Binaries
 
-- Download the latest release from https://github.com/Thomson Reuters/HashIconSwift/releases
+- Download the latest release from https://github.com/ThomsonReuters/HashIcon-Swift/releases
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
