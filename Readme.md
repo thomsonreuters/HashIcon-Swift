@@ -9,7 +9,7 @@
 
 
 ## Contact
-[Francisco Pereira](mailto:francisco.pereira@thomsonreuters.com) - [The Hub](https://thehub.thomsonreuters.com/people/0169361) - [Git](https://git.sami.int.thomsonreuters.com/francisco.pereira)
+[Francisco Pereira](mailto:francisco.pereira@thomsonreuters.com)
 
 ## Requirements
 
